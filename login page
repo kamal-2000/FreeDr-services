@@ -1,0 +1,37 @@
+<html>
+<head>
+<link rel="stylesheet" href="login.css">
+<link rel="stylesheet" href="jqueryui/jquery-ui.css">
+<link rel="stylesheet" href="jqueryui/jquery-ui.structure.css">
+<link rel="stylesheet" href="jqueryui/jquery-ui.theme.css">
+</head>
+<body>
+<div id="loginborder">
+</div>
+<div id="heading">
+<h1> FreeDr Services</h1>
+</div>
+<div id="afterheading">
+<h1> www.FreeDr.com</h1>
+</div>
+<div id="login">
+<img src="loginicon.png" class="icon"></br>
+<h1>Login Here</h1>
+	Username</br> <input type="email" class="inputbox"></br>
+	</br>
+	Password </br><input type="password" class="inputbox"></br></br></br>
+	<button class="button">Login</button></br></br>
+	</br><a href="login.html" class="forget">Forget Password</a>
+	</div>
+	<div id="nav">
+	<ul>
+	<li><a href=>Home</a></li>
+	<li><a href="">About</a></li>
+	<li><a href="">Team</a></li>
+	<li><a href="">Contact</a></li>
+	</ul>
+</div>
+	<script src="jquery-3.5.1.js"></script>
+<script src="jqueryui/jquery-ui.js"></script>
+</body>
+</html>
