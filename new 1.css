@@ -1,0 +1,15 @@
+<html>
+<head>
+<script>
+src="test1.js">
+
+</head>
+<body>
+<form action="" method="post" onSubmit="validateTextbox();">
+
+Password <input type="password" id="password" required>
+Confirm Password <input type="password" id="cpassword" required>
+
+<button onClick="changeText()"> Submit</button>
+</body>
+</html>
