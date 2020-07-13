@@ -1,0 +1,281 @@
+#loginborder{
+	border: solid transparent 70px;
+	
+	
+}
+#heading{
+	
+	text-align:center;
+	margin-top:-190px;
+	font-size:35px;
+}
+#afterheading
+{ 
+text-align:center;
+	margin-top:-50px;
+	font-size:22px;
+}
+#navbar
+{
+	margin-top:-68px;
+	float:right;
+	margin-right:3px;
+	border: solid 1px transparent;
+	padding:0.5px 0.5px 0.5px 0.5px;
+	display:inline;
+	
+}
+#navbar a{
+	text-decoration:none;
+	color:black;
+}
+.buttonfirst
+{
+	background-color:transparent;
+	border-bottom:none;
+	border-right:none;
+	border-left:none;
+	border-top:none;
+	font-size:25px;
+	padding-right:22px;
+	color:black;
+}
+.buttonsecond
+{
+	background-color:transparent;
+	border-bottom:none;
+	border-right:none;
+	border-left:none;
+	border-top:none;
+	font-size:25px;
+	padding-right:22px;
+	color:black;
+}
+.buttonthird
+{
+	background-color:transparent;
+	border-bottom:none;
+	border-right:none;
+	border-left:none;
+	border-top:none;
+	font-size:25px;
+	padding-right:22px;
+	color:black;
+}
+.buttonfourth
+{
+	background-color:transparent;
+	border-bottom:none;
+	border-right:none;
+	border-left:none;
+	border-top:none;
+	font-size:25px;
+	padding-right:22px;
+	color:black;
+}
+.buttonfifth
+{
+	background-color:transparent;
+	border-bottom:none;
+	border-right:none;
+	border-left:none;
+	border-top:none;
+	font-size:25px;
+	padding-right:22px;
+	color:black;
+	float:left;
+	margin-right:800px;
+}
+
+
+#home{
+	color: black;
+    font-family: 'Freckle Face', cursive;
+    font-size: 55px;
+    margin-top: -14px;
+	height: 100px;
+	width: 100%;
+	background-color: black
+	
+	
+
+	}
+#home div{
+	margin-top: auto;
+	padding: 0.5px 0.5px 43.5px 0.5px;
+}
+
+
+#home::before{
+		height: 360px;
+		color: blue;
+	}
+#home p{
+		font-size: 20px;
+		text-align: center;
+		margin-left: 100px;
+		margin-top: -26px;
+		color: white
+
+	}
+#home h1{
+		font-size: 26px;
+		text-align: center;
+		margin-left: 50px;
+		color: azure;
+}
+.container{
+	display: grid;
+	grid-template-rows: repeat(2, 4fr);
+	grid-template-columns:  repeat(3, 4fr);
+	grid-column-gap: 0.8rem;
+	grid-row-gap: 0.3rem;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	height: 1100px;
+
+}
+.item{
+	background-color: white;
+	padding: 18px;
+	border: 2px solid black;
+	height: 300px;
+	width: 250px;
+	margin-top: 30px;
+	margin-left: 50px;
+	border-radius: 7px;
+	border-width: 3px;
+	padding: 22px 19px 21px 19px;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+	overflow: hidden;
+	cursor: pointer;
+	transition: all 1s ease-in-out;
+
+	
+}
+
+.item:hover{
+	transform: scale(1.18);
+	background-color: grey;
+	height: 406px;
+	width: 250px;
+	border-radius: 17px;
+	border-color: black;
+	padding: 22px 19px 21px 31px;
+}
+
+.item img{
+	height: 232px;
+	width: 247px;
+	text-align: center;
+}
+
+.item h3{
+	font-size: 25px;
+	margin-top: 1px;
+	text-align: center;
+
+
+}
+
+.item p{
+	
+	font-style: normal;
+	font-size: 14px;
+	text-align: center;
+}
+
+#lastborder
+{
+	border: solid 150px transparent;
+}
+#icons
+{
+	background-color:transparent;
+}
+#lastborder1
+{
+	background-color:transparent;
+}
+.listicons 
+{
+	margin-top:-190px;
+	
+}
+.listicons li
+{
+	display:inline;
+	padding:30px;
+	font-size:35px;
+}
+.lastcontent
+{
+	display:inline;
+}
+#background
+{
+	background-image:url"background.jpeg";
+}
+
+#detail
+{
+	margin-top:-30px;
+	margin-left:100px;
+font-size:55px;	
+text-decoration:underline;
+}
+#consultbutton
+{
+	margin-left:140px;
+	margin-top:-40px;
+	font-size:35px;
+	
+	
+}
+.button{
+	font-size:25px;
+	cursor:pointer;
+	border:solid black 2px;
+	border-radius:10px;
+}
+.lastpara1
+{
+margin-top:37px;
+margin-left:-83px;
+}
+.lastpara2
+{
+float:right;
+margin-top:-270px;
+margin-right:540px;
+}
+.lastpara3
+{
+	float:right;
+	margin-top:-270px;
+	margin-right:80px;
+	
+}
+.lastpara4
+{
+	margin-top:-90px;
+	
+}
+#feedbackbutton
+{
+	float:right;
+	margin-top:-105px;
+	margin-right:163px;
+}
+.feedbackbutton{
+	font-size:17.5px;
+}
+body
+{
+	background-image:url("finalbackground.jpg");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
